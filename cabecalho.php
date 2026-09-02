@@ -15,9 +15,16 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0"> 
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="./index.php">
+            Home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./usuarios.php">
+            Usuarios
+          </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Link</a>
@@ -44,4 +51,4 @@
     </div>
   </div>
 </nav>
-    <div class="container h-75 d-flex align-items-center" style="boder:1px solid #ff0000">
+    <div class="container h-75 pt-5">

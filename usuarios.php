@@ -13,7 +13,12 @@
                     </a>
                         </div><!--fechador da col-2 -->
                         <div class="col-8">
-
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control">
+                                <button class="btn btn-primary" type="button">
+                                    Pesquisar
+                                </button>
+                            </div>
                         </div><!--fechador da col-8 -->
                     </div><!--fechador da ROW -->
 
