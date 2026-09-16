@@ -3,13 +3,13 @@
     <div class="col-12">
         <div class="card">
             <div class="card-header">
-                Pesquisar Usuários
+                Pesquisar Clientes
             </div>
             <div class="card-body">
                 <div class="row">
                     <div class="col-2">
-                        <a href="novoUsuario.php" class="btn btn-success">
-                            Novo Usuário
+                        <a href="novoCliente.php" class="btn btn-success">
+                            Novo Cliente
                         </a>
                     </div><!-- Fechador da col-2 -->
                     <div class="col-8">

@@ -1,4 +1,5 @@
-</div><!--Fechamento do conatiner!!!!!!!-->
-<script src= "bootstrap/js/bootstrap.js"></script>
+
+</div><!-- Fechamento do container -->
+<script src="bootstrap/js/bootstrap.js"></script>
 </body>
 </html>

@@ -2,7 +2,7 @@
 
 if(count($_POST) > 0)
 {
-    $id = $_POST["id"];
+    $id_usuario = $_POST["id"];
     $nome = $_POST["nome"];
     $login = $_POST["login"];
     $senha = $_POST["senha"];
