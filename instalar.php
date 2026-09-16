@@ -1,6 +1,7 @@
-<?php 
+<?php
 include "conexao.php";
-$sql = "CREATE TABLE if not exists usuarios (
+
+$sql = "CREATE TABLE IF NOT EXISTS usuarios (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
     login VARCHAR(150) NOT NULL UNIQUE,
@@ -10,13 +11,10 @@ $sql = "CREATE TABLE if not exists usuarios (
 ";
 
 $resultado = mysqli_query($conexao, $sql);
-if($resultado == 1)
-{
+if ($resultado == 1) {
     echo "Banco instalado com sucesso";
-}
-else
-{
-    echo "Houve um erro ao rodar a instalação";
+} else {
+    echo "Houve um erro ao criar a tabela de usuários: " . mysqli_error($conexao);
 }
 
 $sql = "CREATE TABLE IF NOT EXISTS cliente (
@@ -38,15 +36,9 @@ $sql = "CREATE TABLE IF NOT EXISTS cliente (
 ";
 
 $resultado = mysqli_query($conexao, $sql);
-if($resultado == 1)
-{
-    echo "<br> Tabela Cliente instalado com sucesso";
+if ($resultado == 1) {
+    echo "<br>Tabela Cliente instalada com sucesso";
+} else {
+    echo "<br>Houve um erro ao criar a tabela de clientes: " . mysqli_error($conexao);
 }
-else
-{
-    echo "Houve um erro ao rodar a instalação";
-}
-
-
-
 ?>

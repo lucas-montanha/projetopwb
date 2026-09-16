@@ -1,5 +1,5 @@
 <?php include "cabecalho.php"; ?>
-<div class="row" >
+<div class="row">
     <div class="col-12">
         <div class="card">
             <div class="card-header">
@@ -28,4 +28,3 @@
 </div><!-- fechador da ROW -->
 
 <?php include "rodape.php"; ?>
-
